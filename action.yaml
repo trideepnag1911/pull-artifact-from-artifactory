@@ -11,6 +11,9 @@ inputs:
   FILE:
     description: 'Artifact location'
     required: false
+  TARGET:
+    description: 'Target file name to save'
+    required: false
 runs:
   using: "docker"
   image: "Dockerfile"
