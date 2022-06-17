@@ -1,0 +1,16 @@
+name: "Pull artifacts from Artifactory"
+description: "This will pull artifact from the desired Artifactory location"
+author: "Trideep Nag <trideepnag@gmail.com>"
+inputs:
+  USER_NAME:  
+    description: 'Username to login with'
+    required: false
+  PASSWORD:
+    description: 'Password of the Username used for login'
+    required: false
+  FILE:
+    description: 'Artifact location'
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
