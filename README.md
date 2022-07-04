@@ -1,4 +1,4 @@
-# artifact-upload-in-artifactory
+# pull-artifact-from-artifactory
 
 This action will enable you to download artifacts from any Artifactory location using the user credentials stored as secret in Github Repository.
 
