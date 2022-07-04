@@ -27,7 +27,7 @@ jobs:
       env:
         USER_NAME: ${{ secrets.ARTIFACTORY_USERNAME }}
         PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD }}
-        FILE: "http://34.122.63.81:8082/artifactory/gradle-build/app1.jar"
+        FILE: "http://<Artifactory-Hostname-with-port>/artifactory/gradle-build/app1.jar"
         TARGET: "app.jar"
       uses: trideepnag1911/pull-artifact-from-artifactory@main
 ```
